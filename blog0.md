@@ -1,6 +1,6 @@
 ## Blog Zero
 
-###(Return to the Matrix)[https://themaverick.github.io/seniordesign/]
+###[Return to the Matrix](https://themaverick.github.io/seniordesign/)
 
 ![Image](https://themaverick.github.io/seniordesign/matrixhasyou.gif)
 
