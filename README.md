@@ -2,9 +2,10 @@
 
 ![Image](https://themaverick.github.io/seniordesign/kidspoonbend.gif)
 
-You can go and see and use the [editor on GitHub](https://github.com/themaverick/seniordesign/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Below are links to my school assignment blog updates on the awesomeness:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+0. Blog Zero
+1. Blog One
 
 ### Markdown
 
