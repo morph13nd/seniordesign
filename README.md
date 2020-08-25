@@ -4,7 +4,7 @@
 
 Below are links to my school assignment blog updates on the awesomeness:
 
-0. Blog Zero
+0. [https://themaverick.github.io/seniordesign/blog0]Blog Zero 
 1. Blog One
 
 ### Markdown
