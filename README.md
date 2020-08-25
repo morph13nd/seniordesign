@@ -2,6 +2,7 @@
 
 ![Image](https://themaverick.github.io/seniordesign/kidspoonbend.gif)
 
+### Howdy, folks! Step right up and try your hand at a blog of skill and chance!
 Below are links to my school assignment blog updates on the awesomeness:
 
 0. [Blog Zero ](https://themaverick.github.io/seniordesign/blog0)
