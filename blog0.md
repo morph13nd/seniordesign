@@ -1,6 +1,6 @@
 ## Welcome... There is no spoon.
 
-![Image](https://themaverick.github.io/seniordesign/kidspoonbend.gif)
+![Image](https://themaverick.github.io/seniordesign/matrixhasyou.gif)
 
 ### You hear that, Mr. Anderson? That's the sound of inevitability, that's the sound of your Blog.
 Below are links to my school assignment blog updates on the awesomeness:
