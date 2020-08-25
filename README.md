@@ -1,6 +1,6 @@
 ## Welcome... There is no spoon.+
 
-You can use the [editor on GitHub](https://github.com/themaverick/seniordesign/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can go and see and use the [editor on GitHub](https://github.com/themaverick/seniordesign/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
