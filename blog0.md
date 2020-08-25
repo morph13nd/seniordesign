@@ -1,6 +1,7 @@
 ## Blog Zero
 
-###[Return to the Matrix](https://themaverick.github.io/seniordesign/)
+Wake up Neo...
+[Return to the Matrix](https://themaverick.github.io/seniordesign/)
 
 ![Image](https://themaverick.github.io/seniordesign/matrixhasyou.gif)
 
