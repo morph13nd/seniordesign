@@ -1,4 +1,4 @@
-## Welcome... There is no spoon.+
+## Welcome... There is no spoon.
 
 You can go and see and use the [editor on GitHub](https://github.com/themaverick/seniordesign/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
