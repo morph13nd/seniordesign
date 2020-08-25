@@ -1,18 +1,16 @@
 ## Blog Zero
 
-Wake up Neo...
-[Return to the Matrix](https://themaverick.github.io/seniordesign/)
-
 ![Image](https://themaverick.github.io/seniordesign/matrixhasyou.gif)
 
-### You hear that, Mr. Anderson? That's the sound of inevitability, that's the sound of your Blog.
-Below are links to my school assignment blog updates on the awesomeness:
+### What?
+This blog will continue my IT Security journey starting with my PowerShell adventure and attempting to get this darn script I have fully matured and developed. It initially begins with having the end goal in mind since I am not starting with any sort of SDLC formalities or anything of that sort. The script is to have a menu where the user and select actions to complete, it must have a log of all items in the terminal, and finally actually function properly.
 
-0. [Blog Zero ](https://themaverick.github.io/seniordesign/blog0)
-1. Blog One
-
-### Markdown
-
+### Starting Features
+```markdown
+1. A user menu to select options
+2. Manage the Windows Firewall
+3. Run on at least PowerShell 5 (Windows 8 and beyond)
+```
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
