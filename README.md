@@ -1,6 +1,6 @@
 ## Welcome... There is no spoon.
 
-![Image](https://themaverick.github.io/seniordesign/kidspoonbend.gif)
+![Image](https://themaverick.github.io/seniordesign/gifs/kidspoonbend.gif)
 
 ### Primary interests:
 I love cybersecurity. It is my main focus. My primary interests include baking information technology needs with cybersecurity as I believe this is how cybersecurity should be integrated into an organization. I also like the Matrix a 0x\0x\0x/0x/0x

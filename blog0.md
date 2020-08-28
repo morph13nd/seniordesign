@@ -1,6 +1,6 @@
 ## Blog Zero
 
-![Image](https://themaverick.github.io/seniordesign/matrixhasyou.gif)
+![Image](https://themaverick.github.io/seniordesign/gifs/matrixhasyou.gif)
 
 ### What?
 This blog will continue my IT Security/insert cybersecurity buzzword journey starting with my PowerShell adventure and attempting to get this darn script I have fully matured and developed. It initially begins with having the end goal in mind since I am not starting with any sort of SDLC formalities or anything of that sort. The script is to have a menu where the user and select actions to complete, it must have a log of all items in the terminal, and finally actually function properly.
@@ -16,3 +16,4 @@ The user menu is important to have because it gives people the option to select 
 
 ## A user menu to select options
 
+![Image](https://themaverick.github.io/seniordesign/gifs/matrixhasyou.gif)
