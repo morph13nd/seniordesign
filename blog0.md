@@ -31,4 +31,5 @@ function Show-WFW-Menu {
     Write-Host "5. Workstation with no services"
     Write-Host "6. Server"
     Write-Host "Q: Press 'Q' (case sensitive) to quit."
-}```
+}
+```
