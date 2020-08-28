@@ -16,20 +16,3 @@ The user menu is important to have because it gives people the option to select 
 
 ## A user menu to select options
 
-```markdown
-function Show-WFW-Menu {
-    param (
-        [string]$Title = 'WFW Menu'
-    )
-    title "Windows Firewall Wizard by @1ncryption"
-    Clear-Host
-    Write-Host "=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=| $Title |=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|="
-    Write-Host "1. Troubleshoot inactive / disabled Firewall"
-    Write-Host "2. Auto Identify existing GPO firewall rules"
-    Write-Host "3. Active Directory Domain Controller"
-    Write-Host "4. Read Only Active Directory Domain Controller"
-    Write-Host "5. Workstation with no services"
-    Write-Host "6. Server"
-    Write-Host "Q: Press 'Q' (case sensitive) to quit."
-}
-```
