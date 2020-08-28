@@ -18,5 +18,10 @@ The user menu is important to have because it gives people the option to select 
 
 ![Image](https://themaverick.github.io/seniordesign/gifs/b01.png)
 
-So I have a four loop that I'm going to use to call back the menu anytime that the menu is finished or a process has finished a selection item so that way people can resume their work on the menu screen . It also helps keep the software consistent to stop someone starting to deviate from the original intent of the program. I know I'm using the words software program and possibly the word script interchangeably so please bear with me . 
+So I have a four loop that I'm going to use to call back the menu anytime that the menu is finished or a process has finished a selection item so that way people can resume their work on the menu screen . It also helps keep the software consistent to stop someone starting to deviate from the original intent of the program. I know I'm using the words software program and possibly the word script interchangeably so please bear with me. I have the full permission from @1ncryption to continue with using his skeleton function code.  
 
+## Manage the Windows Firewall
+
+Managing the windows firewall is sometimes quite difficult so I figured that each of these options would prepare us for using another component of the firewall. I was thinking of adding an nmap feature to this so that way I can check if the ports are actually open using one of the special nmap flags and this way we would know for sure what would happen - If the script actually works the way it is intended . I want to whitelist and make sure that it is confirmed to work. 
+
+The first step is to try and obtain all of the IP address is required and the direction of these never channels are supposed to be communicated, Then specify what protocol and port needs to be communicated as well so that way it can be opened and everything else can be closed or at least it can appear closed to other attackers . This way we are mitigating risk while maintaining our availability and confidentiality . 
