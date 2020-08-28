@@ -25,3 +25,9 @@ So I have a four loop that I'm going to use to call back the menu anytime that t
 Managing the windows firewall is sometimes quite difficult so I figured that each of these options would prepare us for using another component of the firewall. I was thinking of adding an nmap feature to this so that way I can check if the ports are actually open using one of the special nmap flags and this way we would know for sure what would happen - If the script actually works the way it is intended . I want to whitelist and make sure that it is confirmed to work. 
 
 The first step is to try and obtain all of the IP address is required and the direction of these never channels are supposed to be communicated, Then specify what protocol and port needs to be communicated as well so that way it can be opened and everything else can be closed or at least it can appear closed to other attackers . This way we are mitigating risk while maintaining our availability and confidentiality . 
+
+## Run on at least PowerShell 5 (Windows 8 and beyond)
+```markdown
+powershell.exe -Version 5.0 .\<ScriptName>.ps1
+``` 
+This should allow us to run with PowerShell version 5 without having any other conflicts in programming a PowerShell script. Unfortunately this is only OK with Windows 8 and beyond and PowerShell 5 is slightly more difficult to install on a Windows 7 unpatched version professional ultimate or any other edition for that matter. That would be the next challenge is to attempt to script a Automatic PowerShell updater. This might be a project in itself.
