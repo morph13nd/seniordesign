@@ -16,4 +16,7 @@ The user menu is important to have because it gives people the option to select 
 
 ## A user menu to select options
 
-![Image](https://themaverick.github.io/seniordesign/gifs/matrixhasyou.gif)
+![Image](https://themaverick.github.io/seniordesign/gifs/b01.png)
+
+So I have a four loop that I'm going to use to call back the menu anytime that the menu is finished or a process has finished a selection item so that way people can resume their work on the menu screen . It also helps keep the software consistent to stop someone starting to deviate from the original intent of the program. I know I'm using the words software program and possibly the word script interchangeably so please bear with me . 
+
