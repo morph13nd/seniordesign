@@ -2,40 +2,16 @@
 
 ![Image](https://themaverick.github.io/seniordesign/kidspoonbend.gif)
 
+### Primary interests:
+I love cybersecurity. It is my main focus. My primary interests include baking information technology needs with cybersecurity as I believe this is how cybersecurity should be integrated into an organization. I also like the Matrix a 0x\0x\0x/0x/0x
+
 ### You hear that, Mr. Anderson? That's the sound of inevitability, that's the sound of your Blog.
 Below are links to my school assignment blog updates on the awesomeness:
 
 0. [Blog Zero ](https://themaverick.github.io/seniordesign/blog0.md)
 1. Blog One
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/themaverick/seniordesign/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+2. Blog Two
+3. Blog Three
+4. Blog Four
+5. Blog Five
+6. Blog Six
