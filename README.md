@@ -8,7 +8,7 @@ I love cybersecurity. It is my main focus. My primary interests include baking i
 ### You hear that, Mr. Anderson? That's the sound of inevitability, that's the sound of your Blog.
 Below are links to my school assignment blog updates on the awesomeness:
 
-0. [Blog Zero ](https://themaverick.github.io/seniordesign/blog0.md)
+0. [Blog Zero ](https://themaverick.github.io/seniordesign/blog0)
 1. Blog One
 2. Blog Two
 3. Blog Three
