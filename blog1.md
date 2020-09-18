@@ -2,7 +2,7 @@
 
 ![Image](https://themaverick.github.io/seniordesign/gifs/neowhat.gif)
 
-### What?
+### What? Surprise! It's 9:00pm, and can you write this for me? 
 Just the other day I was asked by someone in the cybersec industry for some PowerShell advice to locate a file on Windows using only native langauges. He was curious as to how I could do this in a one liner, or even better, a PowerShell script. His issue was locating a file given a file hash of a video he needs to edit without knowing the file name. I tried writing it in under 10 minutes, and it was a great success! Here is what I did. Another issue they had faced was that the machine was single core, which as we all know, 1 core is never better than 2 cores. 
 
 ### Starting Features
@@ -33,4 +33,4 @@ Get-ChildItem will obtain a directory listing of the C: drive, which can be conv
 
 I believe he was quite happy with the result and was able to locate the file. Fun times!
 
-Download link to script: ![File-Identification.ps1](https://themaverick.github.io/seniordesign/scripts/ps1/File-Identification.ps1)
+Download link to script: ![File-Identification.ps1 ](https://themaverick.github.io/seniordesign/scripts/ps1/File-Identification.ps1)
