@@ -9,8 +9,8 @@ I love cybersecurity. It is my main focus. My primary interests include baking i
 Below are links to my school assignment blog updates on the awesomeness:
 
 0. [Blog Zero ](https://themaverick.github.io/seniordesign/blog0)
-1. [Blog Two ](https://themaverick.github.io/seniordesign/blog2)
-2. Blog One
+1. [Blog One ](https://themaverick.github.io/seniordesign/blog1)
+2. [Blog Two ](https://themaverick.github.io/seniordesign/blog2)
 3. Blog Three
 4. Blog Four
 5. Blog Five
