@@ -1,4 +1,4 @@
-## Blog One
+## Blog Two
 
 ![Image](https://themaverick.github.io/seniordesign/gifs/neowhat.gif)
 
