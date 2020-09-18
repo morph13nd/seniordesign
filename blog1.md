@@ -29,8 +29,12 @@ Here is what I wrote:
 Get-ChildItem -Path C: -recurse | Group-Object Length | Select-Object -ExpandProperty group | ForEach-Object -Parallel  {get-filehash -literalpath $_.fullname} | Where-Object { $_.Hash -eq $needle } -ErrorAction SilentlyContinue
 ```
 
-Get-ChildItem will obtain a directory listing of the C: drive, which can be converted to a variable to obtain a listing of a drive letter supplied by the user. By we begin to group objects by their length and choosing an object to final their file name which supplies us with their literal paths (full directory path) to a given file. We use the ForEach-Object running in Parallel processing for faster hashing and overrall consuming less time than tpyical without ![parallel processing](https://devblogs.microsoft.com/powershell/powershell-foreach-object-parallel-feature/). Get-FileHash will obtain a hash of each file in the default SHA-256 algorithm. Finally, we will examine each object for our desired needle (the inputted hash by the user). At the end of the script, upon error, we suppress these since there can be access issues to more sensitive system files. 
+Get-ChildItem will obtain a directory listing of the C: drive, which can be converted to a variable to obtain a listing of a drive letter supplied by the user. By we begin to group objects by their length and choosing an object to final their file name which supplies us with their literal paths (full directory path) to a given file. We use the ForEach-Object running in Parallel processing for faster hashing and overrall consuming less time than tpyical without ![parallel processing](https://devblogs.microsoft.com/powershell/powershell-foreach-object-parallel-feature/). Get-FileHash will obtain a hash of each file in the default SHA-256 algorithm. 
+
+Of course, the algorithm can also be changed with the `-Algorithm` flag and other hashing is supported such as MD5 or other variations of SHA. Finally, we will examine each object for our desired needle (the inputted hash by the user). At the end of the script, upon error, we suppress these since there can be access issues to more sensitive system files. 
 
 I believe he was quite happy with the result and was able to locate the file. Fun times!
 
-Download link to script: ![File-Identification.ps1 ](https://themaverick.github.io/seniordesign/scripts/ps1/File-Identification.ps1)
+Download link to script: https://themaverick.github.io/seniordesign/scripts/ps1/File-Identification.ps1
+
+Please credit this blog for any use of this script and @1ncryption.
