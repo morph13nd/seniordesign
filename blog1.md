@@ -13,7 +13,6 @@ Just the other day I was asked by someone in the cybersec industry for some Powe
 4. Return file location, hash, and name
 ```
 
-
 ## Obtain input of hash
 
 ![Image](https://themaverick.github.io/seniordesign/media/b1.png)
@@ -33,3 +32,5 @@ Get-ChildItem -Path C: -recurse | Group-Object Length | Select-Object -ExpandPro
 Get-ChildItem will obtain a directory listing of the C: drive, which can be converted to a variable to obtain a listing of a drive letter supplied by the user. By we begin to group objects by their length and choosing an object to final their file name which supplies us with their literal paths (full directory path) to a given file. We use the ForEach-Object running in Parallel processing for faster hashing and overrall consuming less time than tpyical without ![parallel processing](https://devblogs.microsoft.com/powershell/powershell-foreach-object-parallel-feature/). Get-FileHash will obtain a hash of each file in the default SHA-256 algorithm. Finally, we will examine each object for our desired needle (the inputted hash by the user). At the end of the script, upon error, we suppress these since there can be access issues to more sensitive system files. 
 
 I believe he was quite happy with the result and was able to locate the file. Fun times!
+
+Download link to script: ![File-Identification.ps1](https://themaverick.github.io/seniordesign/scripts/ps1/File-Identification.ps1)
