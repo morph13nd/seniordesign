@@ -12,29 +12,10 @@ The next part of the agenda is to analyze services that are required by Active D
 3. Pass user-input into the script of IP addresses
 ```
 
-## Standby
+## The DNS friendly script
 
     ````New-NetFirewallRule -DisplayName "Allow DNS Outbound" -Direction Outbound -Program "C:\Windows\System32\dns.exe" -RemoteAddress $IP -Action Allow -Enabled True -InterfaceType Any -Profile Any -RemotePort Any -Protocol UDP -LocalPort 53
     New-NetFirewallRule -DisplayName "Allow DNS Inbound" -Direction Inbound -Program "C:\Windows\System32\dns.exe" -RemoteAddress $IP -Action Allow -Enabled True -InterfaceType Any -Profile Any -RemotePort Any -Protocol UDP -LocalPort 53```
 
-The needle in the haystack (all the hard drive files we are searching for) is our desired hash. To find this hash we store it into a variable so this way the system can know what to look for in memory.  
 
-## The one liner
-
-The glory of the one liner is that the code is condensed into one line and does not have multiple lines while still completing the job of the script. It is mostly to show off a condensed script. PowerShell one liners have been a thing for quite some time now in industry!
-
-Here is what I wrote:
-
-```
-Get-ChildItem -Path C: -recurse | Group-Object Length | Select-Object -ExpandProperty group | ForEach-Object -Parallel  {get-filehash -literalpath $_.fullname} | Where-Object { $_.Hash -eq $needle } -ErrorAction SilentlyContinue
-```
-
-Get-ChildItem will obtain a directory listing of the C: drive, which can be converted to a variable to obtain a listing of a drive letter supplied by the user. By we begin to group objects by their length and choosing an object to final their file name which supplies us with their literal paths (full directory path) to a given file. We use the ForEach-Object running in Parallel processing for faster hashing and overrall consuming less time than tpyical without ![parallel processing](https://devblogs.microsoft.com/powershell/powershell-foreach-object-parallel-feature/). Get-FileHash will obtain a hash of each file in the default SHA-256 algorithm. 
-
-Of course, the algorithm can also be changed with the `-Algorithm` flag and other hashing is supported such as MD5 or other variations of SHA. Finally, we will examine each object for our desired needle (the inputted hash by the user). At the end of the script, upon error, we suppress these since there can be access issues to more sensitive system files. 
-
-I believe he was quite happy with the result and was able to locate the file. Fun times!
-
-Download link to script: https://themaverick.github.io/seniordesign/scripts/ps1/File-Identification.ps1
-
-Please credit this blog for any use of this script and @1ncryption.
+The domain name server is important for all communications within a given network to resolve addresses from octet IP addresses to full English name IP addresses for top level domain names and other domain names including subdomains. Therefore this is an example rule of a rule that creates an application specific rule that dictates DNS can only be communicated via a specific port through a specific application to a specific IP address to minimize and mitigate risk of the DNS executable Being compromised and sending out malicious information and ensuring that any requests open on port 53 must be handled by the dns.exe application . Otherwise all requests would fail , so if there were to be an exploit for the dns.exe application, it would work if dns.exe is vulnerable. If the exploit is delivered on port 53 and intended for another application running on port 53 like a backdoor, this would be blocked and mitigate C2 connections. 
