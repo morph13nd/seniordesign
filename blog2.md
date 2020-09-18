@@ -1,17 +1,21 @@
 ## Blog Two
 
-![Image](https://themaverick.github.io/seniordesign/gifs/neowhat.gif)
+![Image](https://themaverick.github.io/seniordesign/gifs/neowhip.gif)
 
-### Under
+### Windows Firewall Wizard Updates
+The next part of the agenda is to analyze services that are required by Active Directory to function normally within they give an Active Directory environment such as remote procedure protocol and group policy and authentication services such as Kerberos and shomba protocol. I've taken The Liberty of doing research into the protocols that are required and baked into the script all of the necessary ports to properly secure Active Directory using the PowerShell script at the firewall level , the application firewall level to be specific. Not only that but I've also baked in my personal strategy in performing an IP whitelist which allows us to block unwanted IP addresses that are not on the list.
 
 ### Construction
 ```markdown
-
+1. Analyze Active Directory Services
+2. Identify ports required
+3. Pass user-input into the script of IP addresses
 ```
 
 ## Standby
 
-![Image]
+    ````New-NetFirewallRule -DisplayName "Allow DNS Outbound" -Direction Outbound -Program "C:\Windows\System32\dns.exe" -RemoteAddress $IP -Action Allow -Enabled True -InterfaceType Any -Profile Any -RemotePort Any -Protocol UDP -LocalPort 53
+    New-NetFirewallRule -DisplayName "Allow DNS Inbound" -Direction Inbound -Program "C:\Windows\System32\dns.exe" -RemoteAddress $IP -Action Allow -Enabled True -InterfaceType Any -Profile Any -RemotePort Any -Protocol UDP -LocalPort 53```
 
 The needle in the haystack (all the hard drive files we are searching for) is our desired hash. To find this hash we store it into a variable so this way the system can know what to look for in memory.  
 
