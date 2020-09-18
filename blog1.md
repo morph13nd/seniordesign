@@ -1,9 +1,9 @@
 ## Blog One
 
-![Image](https://themaverick.github.io/seniordesign/gifs/matrixhasyou.gif)
+![Image](https://themaverick.github.io/seniordesign/gifs/neowhat.gif)
 
 ### What?
-Just the other day I was asked by someone in industry for some PowerShell advice to locate a file on Windows using only native langauges. He was curious as to how I could do this in a one liner, or even better, a PowerShell script. His issue was locating a file given a file hash of a video he needs to edit without knowing the file name. I tried writing it in under 10 minutes, and it was a great success! Here is what I did.
+Just the other day I was asked by someone in the cybersec industry for some PowerShell advice to locate a file on Windows using only native langauges. He was curious as to how I could do this in a one liner, or even better, a PowerShell script. His issue was locating a file given a file hash of a video he needs to edit without knowing the file name. I tried writing it in under 10 minutes, and it was a great success! Here is what I did.
 
 ### Starting Features
 ```markdown
