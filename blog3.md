@@ -16,7 +16,7 @@ I figured that it would be a great time to practice some penetration testing and
 4. Windows Batch syntax understanding 
 5. Controlled safe lab environment to pentest within the entire time```
 
-## Starting up Kali
+### Starting up Kali
 
 ![Image](https://themaverick.github.io/seniordesign/media/vmware_1.png)
 
@@ -26,12 +26,12 @@ You can choose whatever Type 1 virtualization software you would like to use, I 
 
 ![Image](https://themaverick.github.io/seniordesign/media/vmware_l4DCtNyif1.png)
 
-## Launching metasploit and performing beginner reconaissance
+### Launching metasploit and performing beginner reconaissance
 
 Now that I have entered my lab network where the vulnerable machine is, I have to decipher which private IP address is it really located on.
 Knowing how virtual adapters work, the tap0 is likely our target network. I used grep to shorten the output and get to the point.
 
-## Some innocent scanning during reconaissance
+### Some innocent scanning after basic reconaissance
 
 We have to audit and locate our network topology under the network `192.168.99.0/24` and identify our target machine. We are `192.168.99.100` as indicated in the screenshot above which places us directly on the same network as our target machine. To hide our tracks and make it more difficult to trace, we launch a specific nmap scan. In this instance, there could or could not be a firewall to block sequenced scans. We are doing a ping sweep to see who lives on the network. It seems it is only us two, me and .12.
 
@@ -43,7 +43,7 @@ Let's see some verbose output with that!
 
 Now we can see the host is responding to pings and we can now perform a vulnerability scan upon the host machine, which is typically loud and obvious on a network which can be shown in the network logs but it is industry standard practice. 
 
-## The vulnerability scan. Wake up, Windows XP.
+### The vulnerability scan. Wake up, Windows XP.
 
 ![Image](https://themaverick.github.io/seniordesign/media/vmware_J0nvBz7EQX.png)
 
@@ -76,7 +76,7 @@ The three options within Metasploit are the options we want to set to target our
 
 This one liner should allow me to get Administrator access in a matter of a minute now. It enables the default highest-privilege account that has a Logon UI known as the Administrator account built-in and cannot be deleted from Windows. It is painful to secure and can be often overlooked by some security teams. The command also changes the password so I can log in to it. Let's take a look at what happens.
 
-## Successful Administrator Access Granted
+### Successful Administrator Access Granted
 
 ![Image](https://themaverick.github.io/seniordesign/media/finaldemo.gif)
 
