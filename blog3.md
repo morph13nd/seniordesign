@@ -78,8 +78,7 @@ This one liner should allow me to get Administrator access in a matter of a minu
 
 ### Successful Administrator Access Granted
 
-<img src="https://themaverick.github.io/seniordesign/media/finaldemo.gif" alt="Kitten"
-	title="Pentest Demo in a minute" width="808" height="1793" />
+[Click here to view the demonstration.](https://themaverick.github.io/seniordesign/media/finaldemo.gif)
 
 Clearly we can see that I have Administrator access here and I have verified it by running `qwinsta` to show our Remote Desktop Protocol session is active and it is indeed me on Windows XP. I hope you enjoyed this demonstration of my penetration testing adventure in preparation for another certification. Mission success.
 
