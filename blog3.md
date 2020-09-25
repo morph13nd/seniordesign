@@ -79,7 +79,7 @@ This one liner should allow me to get Administrator access in a matter of a minu
 
 ### Successful Administrator Access Granted
 
-<p>Click here to view the demonstration.<a href="https://themaverick.github.io/seniordesign/media/finaldemo.gif" target="_blank" rel="noopener noreferrer"></a>.</p>
+<p><a href="https://themaverick.github.io/seniordesign/media/finaldemo.gif" target="_blank" rel="noopener noreferrer"></a>Click here to view the demonstration.</p>
 
 Clearly we can see that I have Administrator access here and I have verified it by running `qwinsta` to show our Remote Desktop Protocol session is active and it is indeed me on Windows XP. I hope you enjoyed this demonstration of my penetration testing adventure in preparation for another certification. Mission success.
 
