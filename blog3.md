@@ -9,12 +9,13 @@ For the record, this blog is for purely educational purposes and I, nor any part
 I figured that it would be a great time to practice some penetration testing and record it in my blog. As with any engagement, we need an objective. The objective is to obtain Administrator access. I want to see how I would be able to accomplish a successful pentest engagement out of my environment with the items below: 
 
 ### The technical item list
-```markdown
+```
 1. Kali Linux Virtual Machine x64 (because x64 is better than x86)
 2. Potentially vulnerable virtual machine
 3. Vulnerability scanner (using Nessus Home here)
 4. Windows Batch syntax understanding 
-5. Controlled safe lab environment to pentest within the entire time```
+5. Controlled safe lab environment to pentest within the entire time
+```
 
 ### Starting up Kali
 
