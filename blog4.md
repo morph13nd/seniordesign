@@ -15,6 +15,8 @@ This is what it usually looked like in Windows 7 when you're trying to create a 
 ### The technical item list
 ```
 1. Download and install <a href="https://www.macrium.com/reflectfree" target="_blank" rel="noopener noreferrer">Macrium Reflect.</a>
+2. Backup desired system configuration to create a golden image
+3. 
 ```
 
 ### Starting up Kali
