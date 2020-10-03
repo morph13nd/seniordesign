@@ -2,19 +2,19 @@
 
 ![Image](https://themaverick.github.io/seniordesign/gifs/morph.gif)
 
-### DISCLAIMER, please read:
-For the record, this blog is for purely educational purposes and I, nor any parties I am affiliated with in any manner are not responsible for any of your actions you commit using the knowledge found here. YOU are soley responsible for repeating your own actions and could be held liable. If you do not agree, please leave the blog post and see one of the other awesome blog posts I have written. Thank you for your understanding. 
+### Windows and Backup images... let's face the reality.
+In this blog I will discuss how I prefer to backup windows and the most successful method I've had in terms of backing up windows in a full disk image without destroying the image itself and having a very high success rate (100%) so far, compared to other imaging softwares that might cost a lot of money. Windows used to have a system image backup utility in Windows 7. 
 
-### Penetration testing training for the eLearnSecurity Junior Penetration Tester certification 
-I figured that it would be a great time to practice some penetration testing and record it in my blog. As with any engagement, we need an objective. The objective is to obtain Administrator access. I want to see how I would be able to accomplish a successful pentest engagement out of my environment with the items below: 
+![Image](win7bu.png)
+
+### Out with the old, in with the new.
+This is what it usually looked like in Windows 7 when you're trying to create a system image backup. In my experience the feature has been lacking and I have moved on to third party softwares and I prefer the macrium reflect software because it is free and it is constantly updated , also fantastic for home and personal use . They also work on releasing a windows RM feature boot into a drive and perform a restore.  Windows has used the volume shadow copy service VSS service to continually use our system restore functionality and for the backup and restore functionality, and it is concerning to continue using something since Windows 7 and in my experience in using the functionality to backup images via the windows backup and restore function, it has failed about 50% of the time after an approximate 2 hour image creation time. That's a lot of overhead. 
+
+![Image](https://themaverick.github.io/seniordesign/media/explorer_HNFPbqbgcB.png)
 
 ### The technical item list
 ```
-1. Kali Linux Virtual Machine x64 (because x64 is better than x86)
-2. Potentially vulnerable virtual machine
-3. Vulnerability scanner (using Nessus Home here)
-4. Windows Batch syntax understanding 
-5. Controlled safe lab environment to pentest within the entire time
+1. Download and install <a href="https://www.macrium.com/reflectfree" target="_blank" rel="noopener noreferrer">Macrium Reflect.</a>
 ```
 
 ### Starting up Kali
