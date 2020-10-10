@@ -11,12 +11,11 @@ Password changes
 Updating software that is not the operating system
 Updating the operating system 
 ```
-![Image](https://themaverick.github.io/seniordesign/media/firefox_E4900NG1sF.png))
+
+![Image](https://themaverick.github.io/seniordesign/media/firefox_E4900NG1sF.png)
 
 ### Password changes
 
-
-![Image](https://themaverick.github.io/seniordesign/media/explorer_HNFPbqbgcB.png)
 
 Password changes are very important because if you do not change passwords the hashes that are left behind from passwords that are old can be cracked through vulnerabilities such as pass the hash and local security authority vulnerabilities that include mimikatz based attacks. Therefore within the hives from competition, one of the requirements is that we do change our passwords and it is not all the time easy to change passwords on many accounts , which we have a script written ready to go but that won't be published here. Instead, we change our passwords manually and log everything. Passwords are everything and multifactor authentication is unfortunately beyond the scope of the competition, albeit, an important concept.
 
