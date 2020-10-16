@@ -22,6 +22,8 @@ Malicious script execution can occur which can create or leverage legitimate com
 
 ### Logging in with the default credentials for the webserver
 
+Here I will log in with the user John. 
+
 ![Image](https://themaverick.github.io/seniordesign/media/firefox_KLVE4UbbTW.png)
 
 
