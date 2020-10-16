@@ -14,4 +14,4 @@ Below are links to my school assignment blog updates on the awesomeness:
 3. [Blog Three ](https://themaverick.github.io/seniordesign/blog3)
 4. [Blog Four ](https://themaverick.github.io/seniordesign/blog4)
 5. [Blog Five ](https://themaverick.github.io/seniordesign/blog5)
-6. Blog Six
+6. [Blog Six ](https://themaverick.github.io/seniordesign/blog6)
