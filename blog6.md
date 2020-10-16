@@ -8,6 +8,7 @@ server responses in a web application. Today I will work on performing a XSS att
 
 ### The technical item list
 ```
+Web parameter tampering
 Performing a cross site scripting attack on a Windows Webserver
 Local Area Network: MovieScope
 ```
@@ -31,6 +32,30 @@ Malicious script execution can occur which can create or leverage legitimate com
 
 ### Attempting to view Sam's profile without logging in
 
-![Image](https://themaverick.github.io/seniordesign/media\firefox_3GGODLvRvW.png)
+Here I can change the profile ID value to 1 to see Sam's personal information. This allows us to access it via HTTP WEB 1.1 without having us hack the database directly.
 
-Surprisingly, those windows updates that destroy your computer every time, are actually still very important for your computer to have. Those operating system updates are what keep the gears that operate all of the applications that run on top of it in top shape and Patch major security vulnerabilities that hackers and script kiddies can use to exploit the operating system. Operating system patches are more relevant than ever and must be applied more frequently and as frequently as they are released in a production environment this may usually require some sort of testing period unfortunately, in home environments, there is no such thing as testing without a home lab. I highly encourage people who are windows enthusiasts and NIX based enthusiasts to have a home lab to test their updates prior to having them released in their production environment which may or may not be someones gaming PC . In hive storm the competition, updates are absolutely low hanging fruits and a no brainer and should always be performed for local hardening. 
+![Image](https://themaverick.github.io/seniordesign/media\firefox_eseuwQwXZo.png)
+
+![Image](https://themaverick.github.io/seniordesign/media\firefox_Py3BooLJOQ.png)
+
+### XSS Attack on the Contacts page
+
+This is where we insert a script via JavaScript on the page to do the XSS attack. The `<script>` tag is where we insert our payload. Here I have inserted a fun little cheesy line. Click the Submit Comment.
+
+```
+The Maverick <script>alert("You are PWND")</script
+```
+
+![Image](https://themaverick.github.io/seniordesign/media\firefox_dpkUELpxEP.png)
+
+Google Chrome attempts to warn the user about the XSS attack, but, it fails anyways! These security measures must sanitize HTML inputs from the client side and server side (preferrably to prevent these).
+
+![Image](https://themaverick.github.io/seniordesign/media\firefox_QFlwGJckg8.png)
+
+### Persistent XSS Attack Demo Sucessful!
+
+Now if I log in as another user, steve, I will receive the XSS attack message. The XSS attack has been successful, and can run scripts unauthorized on the user's end.
+
+![Image](https://themaverick.github.io/seniordesign/media\firefox_LOEfM4MQtj.png)
+
+![Image](https://themaverick.github.io/seniordesign/media\firefox_PqYwXVhP20.png)
