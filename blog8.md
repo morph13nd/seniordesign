@@ -1,6 +1,6 @@
 ## Blog Eight
 
-![Image](https://themaverick.github.io/seniordesign/gifs/XSS.gif)
+![Image](https://themaverick.github.io/seniordesign/gifs/scan.gif)
 
 ### Incident Management: Vulnerability Analysis
 Attackers perform vulnerability analysis to identify security loopholes in the target organization's
@@ -31,7 +31,7 @@ CGI files are important for servers to execute on a console at the end of the se
 
 ### Beginning to analyze the webserver
 
-Here we start a scan off with ` nikto -h http://www.goodshopping.com -Tuning 1`. 
+Here we start a scan off with ``` nikto -h http://www.goodshopping.com -Tuning 1```. 
 
 ![Image](https://themaverick.github.io/seniordesign/media/nikto.png)
 
@@ -44,13 +44,13 @@ By calculating your IP address of your host, you can attempt to scan multiple ho
 
 ![Image](https://themaverick.github.io/seniordesign/media\ipcalc.png)
 
-Next we will use our `10.10.10.0/24` network as our basis, and it looks like we have some hits. 
+Next we will use our ```10.10.10.0/24``` network as our basis, and it looks like we have some hits. 
 
 ![Image](https://themaverick.github.io/seniordesign/media\nmapo.png)
 
 ### Creating an IP address list based on output
 
-Run `cat themaverick | awk '/Up$/{print $2}' |  cat > webserverList.txt` to get a list of the IP addresses.
+Run ```cat themaverick | awk '/Up$/{print $2}' |  cat > webserverList.txt``` to get a list of the IP addresses.
 
 Here I can see all the IPs of webservers I might want to hit, assuming they run on port 80 for this demonstration.
 
@@ -59,6 +59,6 @@ Here I can see all the IPs of webservers I might want to hit, assuming they run 
 
 ### Executing Nikto on the final output of IPs
 
-And finally the fireworks of Nikto scanning our IPs successfully via `\n` delimitted list.
+And finally the fireworks of Nikto scanning our IPs successfully via ```\n``` delimitted list.
 
 ![Image](https://themaverick.github.io/seniordesign/media\nn.png)
