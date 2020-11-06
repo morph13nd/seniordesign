@@ -1,4 +1,4 @@
-## Blog Nine
+## Blog Nine and performing a DoS attack
 
 ![Image](https://themaverick.github.io/seniordesign/gifs/DDoS.gif)
 
