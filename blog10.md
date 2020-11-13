@@ -3,6 +3,7 @@
 ![Image](https://themaverick.github.io/seniordesign/gifs/recon.gif)
 
 ### Reconaissance could mean the success or failure of a pentest
+
 Reconnaissance is the collection of information about a target. 
 It has its roots in military operations where it refers to enemy intelligence gathering missions. Gathering information is the first step in any attack on information systems. This helps the attackers reduce their effort and helps them choose their attack weapon. Attackers use the target's information to create a diagram or trace of an organization to help them choose the most effective strategy for compromising system and network security. 
 

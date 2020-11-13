@@ -8,13 +8,14 @@ I love cybersecurity. It is my main focus. My primary interests include baking i
 ### You hear that, Mr. Anderson? That's the sound of inevitability, that's the sound of your Blog.
 Below are links to my school assignment blog updates on the awesomeness:
 
-0. [Blog Zero ](https://themaverick.github.io/seniordesign/blog0)
-1. [Blog One ](https://themaverick.github.io/seniordesign/blog1)
-2. [Blog Two ](https://themaverick.github.io/seniordesign/blog2)
-3. [Blog Three ](https://themaverick.github.io/seniordesign/blog3)
-4. [Blog Four ](https://themaverick.github.io/seniordesign/blog4)
-5. [Blog Five ](https://themaverick.github.io/seniordesign/blog5)
-6. [Blog Six ](https://themaverick.github.io/seniordesign/blog6)
+0. [Scripting Windows Firewall Wizardry](https://themaverick.github.io/seniordesign/blog0)
+1. [It’s 9:00pm, and can you write this for me?](https://themaverick.github.io/seniordesign/blog1)
+2. [Windows Firewall Wizard Updates ](https://themaverick.github.io/seniordesign/blog2)
+3. [Penetration testing training for the eLearnSecurity Junior Penetration Tester certification](https://themaverick.github.io/seniordesign/blog3)
+4. [Windows and Backup images](https://themaverick.github.io/seniordesign/blog4)
+5. [Competing in the Hivestorm competition](https://themaverick.github.io/seniordesign/blog5)
+6. [Red Teaming: Cross Site Scripting Attacks ](https://themaverick.github.io/seniordesign/blog6)
 7. [Blog Seven ](https://themaverick.github.io/seniordesign/blog7)
-8. [Blog Eight ](https://themaverick.github.io/seniordesign/blog8)
-9. [Blog Nine ](https://themaverick.github.io/seniordesign/blog9)
+8. [Incident Management: Vulnerability Analysis](https://themaverick.github.io/seniordesign/blog8)
+9. [Performing a DoS attack](https://themaverick.github.io/seniordesign/blog9)
+10. [Manipulating Ping and Tracert](https://themaverick.github.io/seniordesign/blog10)
