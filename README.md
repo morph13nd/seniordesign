@@ -19,3 +19,4 @@ Below are links to my school assignment blog updates on the awesomeness:
 8. [Incident Management: Vulnerability Analysis](https://themaverick.github.io/seniordesign/blog8)
 9. [Performing a DoS attack](https://themaverick.github.io/seniordesign/blog9)
 10. [Manipulating Ping and Tracert](https://themaverick.github.io/seniordesign/blog10)
+11. [Joining Active Directory from vCenter 6.7](https://themaverick.github.io/seniordesign/blog11)
