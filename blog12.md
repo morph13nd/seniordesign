@@ -1,10 +1,5 @@
 ## Blog Twelve: Performing an SQL based attack with Unions
 
-![Image](https://i.imgur.com/hA8kbZm.png)
-
-![Image](https://i.imgur.com/Y1GFh0C.png)
-
-![Image](https://themaverick.github.io/seniordesign/gifs/doyou.gif)
 
 ### Breaking into databases and database servers 
 
