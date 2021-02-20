@@ -1,60 +1,38 @@
-## Blog Twelve: Performing an SQL based attack with Unions
+## Blog Thirteen: Discovering Windows Networking Components
 
 
-### Breaking into databases and database servers 
+### Windows Networking
 
-SQL injection is a basic attack used to either gain unauthorized access to a database or retrieve information immediately from the database. It is a flaw in internet apps and now not a database or internet server issue. 
-
-SQL injection is the most common website vulnerability on the Internet and is used to take advantage of invalid input vulnerabilities to execute SQL commands through a web application, to run through a backend database. SQL injection is a code injection technique that exploits security vulnerabilities in a website's software. SQL injection attacks use malicious SQL queries or a series of SQL statements to manipulate the database directly. Applications often use SQL statements to authenticate users, verify roles and access levels, store, retrieve information for the app and the user, and link to other data sources. The reason SQL injection attacks work is that they do not verify the application properly before sending it to the SQL Statement.
+I hope that you may probably have encountered the term "LAN", which stands for Local Area Network. The operational term here is Local, as the "NetBIOS" and "NetBEUI" integrated in Windows is "NetBEUI" and developed more than fourteen years ago by IBM. It has Received this first broad presence in Microsoft's "MS-Net" product and then in "Windows for Workgroups". NetBIOS and NetBEUI were developed for execution in small local networks. It has already been created before the "happen" of the Internet and should be used in companies, small "working groups" and private households, where everyone has access to the computer on the Internet LAN plays in the same team. 
 
 ### The technical goal list
 ```
-Understanding when and how internet software connects to a database server with read access to data Extracting primary SQL Injection flaws and vulnerabilities 
-Testing internet programs for Blind SQL Injection vulnerabilities
+Running ipconfig
+Running netsh
+Running route
 ```
 
-### SQL Injection Attacks on an Microsoft SQL Database
+### What is IPCONFIG?
 
-SQL injection is one of the most common and dangerous attacks on a website's software experience. This attack occurs on SQL databases that contain weak codes and can be used by attackers to collect sensitive information, modify database entries, or execute database queries to attach malicious code, resulting in compromising sensitive data.
+ It also allows some control over your network adapters, IP addresses (specifically assigned by DHCP), even your DNS cache.Ipconfig superseded the previous winipcfg utility. By using ipconfig, at the command prompt, type ipconfig to run the utility with options The default command output contains the IP address, netmask, and gateway for all network adapters. 
 
-We will test web applications running on the MS SQL Server database for vulnerabilities and errors.
+![Image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftechnologyrss.com%2Fwp-content%2Fuploads%2F2017%2F09%2Fipconfig.png)
 
-The webserver is already staged and ready to use for testing. Launch Chrome.
 
-![Image](https://i.imgur.com/B8BwhUJ.png)
+### The invisible and unheard of net shell
 
-I am accessing my personal webserver laboratory. 
+![Image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.ttgtmedia.com%2Fdigitalguide%2Fimages%2FMisc%2FFig1_Netsh.jpg)
 
-![Image](https://i.imgur.com/CFiYswe.png)
+This blog shows you in some Netsh's good applications in different scenarios and shows you how to optimize your network configuration, management and documentation. With a remote machine parameter (-r), remote connection to other systems can also be produced. By using the netsh winsock command, you gain access to changing all types of settings including connection settings from the command line. 
 
-Type the query blah' or 1=1 -- in the Username field (as your login name), and leave the password field empty. 
+The options within NETSH are context sensitive, and the same command can exist in many context areas but have different commands and consequences in each context NETSH 2003 Context. The best part is that you can import the whole file into the Windows system after all the installed inputs have been installed without incorrect data. This applies to all other setting documents that can be reimported using netsh.
 
-![Image](https://i.imgur.com/DprX5ev.png)
+### Which route is the route?
 
-### Access Granted via Simple Logic
+It's common to find two network adapters on an all-in-one laptop or desktop, which are wired and wireless connections. You can connect both adapters to the router at the same time, so you may be wondering which network connection your computer will use. Would you like to use both at the same time? There is no need to connect multiple network adapters to the same gateway as this can lead to unwanted routing issues. Your best bet is to manually disable any network adapters you will not be using.
 
-![Image](https://i.imgur.com/LnhtkuZ.png)
+When you type "Route Print" in the order command, you can view the route table, which includes details such as interface list and destination network, netmask, gateway , interface, and metric types in the metric column are the most important information in the Microsoft has an article that explains the default metric feature in Windows and how to assign metric to a network adapter based on link speed, number of hits, or delays. Basically, a network adapter with high connection speed is given a low metrics and a network adapter with a very low frequency in the route table is used. 
 
-### Checking our account database on the local server
-
-Before performing the next task, create a user account with the SQL injection query, first verify with Goodshop's login database. I will switch to the Windows Server 2016 machine which hosts the database, then click Windows Server 2016 and launch Microsoft SQL Server Management Studio.
-
-The Microsoft SQL Server Management Studio window appears with the Connect to Server pop-up, in the Authentication field, select Windows Authentication and click Connect.
-
-![Image](https://i.imgur.com/j7C56yS.png)
-
-![Image](https://i.imgur.com/lzMv7fL.png)
-
-![Image](https://i.imgur.com/6D9z9mh.png)
-
-### Create a backdoor SQL user
-
-![Image](https://i.imgur.com/kL2yWeT.png)
-
-After executing the query, to verify that your login has been successfully created, click the Login tab, enter John 123 in the username field and Apple 123 in the password field, and then click Login.
-
-You will be successfully logged in with the login you created. Now you can access all the features of the website. After browsing the required pages, click Logout and close the browser window.
-
-I hope you have enjoyed this simple demonstration on SQL injection techniques!
+I hope you have enjoyed this simple dip into windows networking behind the scenes!
 
 Thank you!
