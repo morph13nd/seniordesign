@@ -14,7 +14,7 @@ Running route
 
 ### What is IPCONFIG?
 
- It also allows some control over your network adapters, IP addresses (specifically assigned by DHCP), even your DNS cache.Ipconfig superseded the previous winipcfg utility. By using ipconfig, at the command prompt, type ipconfig to run the utility with options The default command output contains the IP address, netmask, and gateway for all network adapters. 
+It also allows some control over your network adapters, IP addresses (assigned to DHCP), and even your DNS archive. Default value of the command output contains the IP address, netmask, and gateway for all network adapters. 
 
 ![Image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftechnologyrss.com%2Fwp-content%2Fuploads%2F2017%2F09%2Fipconfig.png)
 
