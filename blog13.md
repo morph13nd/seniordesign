@@ -33,6 +33,7 @@ It's common to find two network adapters on an all-in-one laptop or desktop, whi
 
 When you type "Route Print" in the order command, you can view the route table, which includes details such as interface list and destination network, netmask, gateway , interface, and metric types in the metric column are the most important information in the Microsoft has an article that explains the default metric feature in Windows and how to assign metric to a network adapter based on link speed, number of hits, or delays. Basically, a network adapter with high connection speed is given a low metrics and a network adapter with a very low frequency in the route table is used. 
 
+![Image](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.cisco.com%2Fc%2Fdam%2Fen%2Fus%2Fsupport%2Fdocs%2Fvoice-unified-communications%2Funified-intelligent-contact-management-enterprise%2F20524-route-command.gif)
 I hope you have enjoyed this simple dip into windows networking behind the scenes!
 
 Thank you!
