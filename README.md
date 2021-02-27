@@ -21,3 +21,5 @@ Below are links to my school assignment blog updates on the awesomeness:
 10. [Manipulating Ping and Tracert](https://themaverick.github.io/seniordesign/blog10)
 11. [Joining Active Directory from vCenter 6.7](https://themaverick.github.io/seniordesign/blog11)
 11. [Performing an SQL injection attack on a web server](https://themaverick.github.io/seniordesign/blog12)
+12. [Windows Routing](https://themaverick.github.io/seniordesign/blog13)
+13. [Digital Forensics & Incident Response - Detecting Startup Programs](https://themaverick.github.io/seniordesign/blog14)
