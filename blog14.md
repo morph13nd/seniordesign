@@ -1,7 +1,7 @@
 ## Blog Fourteen: Digital Forensics & Incident Response - Detecting Startup Programs
 
 
-### Detecting startup software introduction
+### Detecting potentially malicious startup software introduction
 
 Let's look for clues about the programs running on your PC at startup. You need a basic understanding of the components of the Windows operating system, such as the registry. 
 ### The technical goal list
@@ -15,6 +15,25 @@ Sysinternals
 The startup locations are configured as startup applications, as well as the full list of file system and registry locations available for startup settings. Startup locations include login entries, Explorer add-ons, and Internet Explorer add-ons, including Browser Helper Objects (BHO). ), Appinit DLLs, image hijacks, boot run images, Winlogon notification DLLs, Windows and Winsock layered service providers, media codecs and more. 
 The autoruns app is excellent for this purpose.
 ![Image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.maketecheasier.com%2Fassets%2Fuploads%2F2015%2F03%2Fstartup-managers-autoruns.png&f=1&nofb=1)
+
+### The types of persistence and malware
+
+Malware can use persistence techniques to maintain its existence on a compromised network. Persistence techniques can ensure that a hacker can retain access to a system even after rebooting, changing credentials, or other similar interruptions that would otherwise disconnect them.  This includes replacing or changing code, inserting startup code, and other actions that an attacker could take on the system. Ensure persistence. The following list describes some common persistence techniques. 
+
+### Technique Explanation
+
+#### Registry keys
+Regedit is a utility that can be used to hide and run programs that are automatically triggered by the RunOnce keys. 
+#### Scheduled Tasks  
+A task can be scheduled to run a malicious payload at system startup. 
+#### Service
+Malware can register a service with a binary path that points to a malicious executable program on the hard drive. 
+#### Home folder
+Malware can persist through a home folder. All executable files in the folder will run at startup. 
+#### AppCert DLL
+Common DLLs running in any process can get infected. 
+#### Bootkit
+MBR can be manipulated to load malware on reboot. 
 
 
 ### The Autoruns application
