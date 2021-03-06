@@ -23,3 +23,4 @@ Below are links to my school assignment blog updates on the awesomeness:
 11. [Performing an SQL injection attack on a web server](https://themaverick.github.io/seniordesign/blog12)
 12. [Windows Routing](https://themaverick.github.io/seniordesign/blog13)
 13. [Digital Forensics & Incident Response - Detecting Startup Programs](https://themaverick.github.io/seniordesign/blog14)
+14. [Digital Forensics & Incident Response - Performing Static Malware Analysis](https://themaverick.github.io/seniordesign/blog15)
