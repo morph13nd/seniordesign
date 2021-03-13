@@ -1,4 +1,4 @@
-## Blog Fifteen: ethical Hacking - Windows Privilege Escalation (PE)
+## Blog Fifteen: Ethical Hacking - Windows Privilege Escalation (PE)
 
 
 ### Windows PE introduction
@@ -39,6 +39,7 @@ On the next screen, click Next to select your Windows 7 operating system.
 ![Image](https://i.imgur.com/JmWgrtN.png)
 
 Choose Command Prompt.
+
 ![Image](https://i.imgur.com/ewHq64w.png)
 
 ### Swap out files
@@ -48,11 +49,14 @@ Make a backup and replace sethc.exe with cmd.exe in Windows\system32.
 
 Using the following command in CMD to find the local disk:
 ```
-logicaldisk wmic get name ```
+logicaldisk wmic get name
+```
 
 ![Image](https://i.imgur.com/i7SuF0L.png)
 
 ![Image](https://i.imgur.com/i7SuF0L.png)
+
+##Manipulate the file system
 
 To get to D:\windows\system32, type D: and press Enter.
 
