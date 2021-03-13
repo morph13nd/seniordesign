@@ -24,3 +24,4 @@ Below are links to my school assignment blog updates on the awesomeness:
 12. [Windows Routing](https://themaverick.github.io/seniordesign/blog13)
 13. [Digital Forensics & Incident Response - Detecting Startup Programs](https://themaverick.github.io/seniordesign/blog14)
 14. [Digital Forensics & Incident Response - Performing Static Malware Analysis](https://themaverick.github.io/seniordesign/blog15)
+15. [Ethical Hacking - Windows Privilege Escalation](https://themaverick.github.io/seniordesign/blog16)
