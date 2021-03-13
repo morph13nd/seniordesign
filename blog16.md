@@ -1,7 +1,7 @@
 ## Blog Fifteen: Ethical Hacking - Windows Privilege Escalation (PE)
 
 
-### Windows PE introduction
+## Windows PE introduction
 
 We will try to understand how to use privileges to access your Windows device in a special way step by step and how to handle this attack. We will attempt to practice and implement local techniques for elevating privilege and mitigation on Windows systems.
 
@@ -14,7 +14,7 @@ Windows 10 (extra)
 Familiarity with the Windows environment and processes
 ```
 
-### Mount the OS first
+## Mount the OS first
 
 First, we will work with repair tools, and open the CMD for later use.
 Use a Windows OS CD to boot Windows 7 over the existing Windows 7 OS.
@@ -22,7 +22,7 @@ Mount the ISO via the Devices tab from the menu. Open the optical drives selecti
 
 ![Image](https://i.imgur.com/eHSGyPA.png)
 
-### Begin breaking into the system
+## Begin breaking into the system
 Press any key to start the installation. Instead of installing the system, open the command prompt. 
 Click Next on the first screen. 
 
@@ -42,7 +42,7 @@ Choose Command Prompt.
 
 ![Image](https://i.imgur.com/ewHq64w.png)
 
-### Swap out files
+## Swap out files
 
 Look for the local disks.
 Make a backup and replace sethc.exe with cmd.exe in Windows\system32.
@@ -56,7 +56,7 @@ logicaldisk wmic get name
 
 ![Image](https://i.imgur.com/i7SuF0L.png)
 
-##Manipulate the file system
+## Manipulate the file system
 
 To get to D:\windows\system32, type D: and press Enter.
 
