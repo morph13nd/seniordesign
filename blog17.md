@@ -6,6 +6,13 @@
 
 We will become familiar with HTTP headers, Apache service control, configuration files, and a web development inspector tool. 
 
+## What is HTTP?
+
+HTTP is the basis of data communication for the World Wide Web, where hypertext documents contain hyperlinks to other resources that can be easily accessed by the user, e.g.  For example, by clicking the mouse or tapping the screen in a web browser. HTTP is a protocol that enables resources such as HTML documents to be retrieved. It is the basis for all data exchange on the web and a client-server protocol. This means that the requests are initiated from the recipient, usually from the web browser. A complete document is reconstructed from the various sub-documents obtained, e.g. B. Text, design description, images, videos, scripts and more.
+
+## What is Apache?
+Apache is an excellent application software. It is the most widely used web server application in the world. Apache is the most widely used web server application on Unix-like operating systems. It is a web server application based on a modular process that can create a new thread through each simultaneous connection. Multiple functions are supported; many of them are compiled into separate modules and their core functions are expanded. They provide everything from server-side programming language support to authentication mechanisms. This is an activity of the Apache Software Foundation. Some well-known companies that use Apache are Cisco, IBM, Salesforce, General Electric, Adobe, VMware, Xerox, LinkedIn, Facebook, Hewlett-Packard, AT&T, Siemens, eBay and many other older servers (source) are using 1995 today many cPanel hosts Apache. Like other web servers, Apache handles the hidden aspects of sharing your website's files with visitors. Because Apache doesn't do as well on some benchmarks, especially static or high-traffic websites, Kinsta uses the NGINX web server instead of Apache. Although NGINX first did so with Apache, its popularity and market share has grown rapidly since its launch in 2004.
+
 ### The technical goal list
 ```
 Knowledge of Kali NIX
