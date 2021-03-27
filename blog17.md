@@ -29,6 +29,7 @@ Change 80 to 9191, and save the file to apply the changes.
 Restart the service. notes. 
 Every configuration change requires a restart. Server and make sure it is active
 
+![Image](https://www.edustorage.net/files/LinuxLiteOS/linux-lite-status-apache2.png?7a1452def0)
 
 ## Enable HTTP Headers
 In this task, you will enable the use of HTTP headers and create a custom header for the server. 
@@ -38,5 +39,6 @@ Click on the first GET request and look at the header to get the response.
 What is the content type? 
 Enable the HTTP header in the terminal, and then restart the service. Note: Use a2enmod.
 
+![Image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.stack.imgur.com%2Fiv9N3.png&f=1&nofb=1)
 
 Thank you!
