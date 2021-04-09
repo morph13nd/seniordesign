@@ -1,4 +1,4 @@
-## Blog Eighteen: Performing MITM with SSLStrip Tool
+## Blog Eighteen: Performing MITM with SSLStrip Tool (part 1)
 
 ![Image](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.checkpoint.com%2Fwp-content%2Fuploads%2F2016%2F03%2FSSL-Stripping-2.png&f=1&nofb=1)
 
