@@ -28,3 +28,4 @@ Below are links to my school assignment blog updates on the awesomeness:
 16. [Ethical Hacking - Apache Webservers](https://themaverick.github.io/seniordesign/blog17)
 17. [Ethical Hacking - Footprinting](https://themaverick.github.io/seniordesign/blog18)
 18. [Ethical Hacking - Network SSL Strip](https://themaverick.github.io/seniordesign/blog19)
+20. [Ethical Hacking - Network SSL Strip](https://themaverick.github.io/seniordesign/blog21)
