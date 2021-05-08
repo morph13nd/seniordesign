@@ -30,5 +30,5 @@ Below are links to my school assignment blog updates on the awesomeness:
 18. [Ethical Hacking - Network SSL Strip](https://themaverick.github.io/seniordesign/blog19)
 20. [Ethical Hacking - Network SSL Strip](https://themaverick.github.io/seniordesign/blog21)
 22. [Ethical Hacking - Introduction to pentesting](https://themaverick.github.io/seniordesign/blog22)
-23. [Ethical Hacking - Introduction to scanning](https://themaverick.github.io/seniordesign/blog22)
+23. [Ethical Hacking - Introduction to scanning](https://themaverick.github.io/seniordesign/blog23)
 
